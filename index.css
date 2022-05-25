@@ -67,6 +67,7 @@ main .banner img {
 
 .cards {
   display: flex;
+  padding: 1rem;
 }
 .cards .card1 {
   background-color: brown;
@@ -102,6 +103,19 @@ main .banner img {
   height: 20rem;
   border: 2px solid rgb(175, 29, 29);
   border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.article {
+  padding: 1rem;
+  display: flex;
+}
+.article .article1, .article .article2 {
+  width: 50%;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 10rem;
   margin: 0.5rem;
 }
 
