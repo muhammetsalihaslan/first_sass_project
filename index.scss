@@ -55,3 +55,72 @@ header{
         }
     }
 }
+
+//***MAIN***************************//
+
+main{
+    .banner{
+        background-color:$bannerBgColor;
+        // height:300px;
+        display: flex;
+        justify-content:space-between;
+        padding:1rem;
+        align-items: center;
+        line-height:2rem;
+        
+    button{
+        padding: 8px;
+        background-color:$navBgColor;
+        border: none;
+        border-radius:10px;
+        font-family:arial;
+        font-size:$myLinkSize;
+        width:10rem;
+        margin:0.5rem;
+        margin-top: 1.5rem;
+        &:hover{
+            background-color:$bgColor;
+            cursor: pointer;
+        }
+
+    }
+    img{
+        width:30%;
+        min-width: 200px;
+        max-width: 400px;
+    }
+    }
+}
+//********* cards***************/
+
+@mixin myBox($bgColor,$fontColor){
+    background-color:$bgColor;
+    color: $fontColor;
+    width: 25%;
+    height: 20rem;
+    border: $myBorder;
+    border-radius:5px;
+    margin:0.5rem;
+}
+
+
+
+
+.cards{
+    display: flex;
+    .card1{
+      @include myBox(brown, white);
+    }
+    .card2{
+      @include myBox(rgb(42,165,63), white);
+    }
+    .card3{
+      @include myBox(rgb(165,157,42), white);
+    }
+    .card4{
+      @include myBox(rgb(42,46,165), white);
+    }
+}
+
+//***ARTİCLE**********************/
+
