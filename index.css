@@ -118,5 +118,8 @@ main .banner img {
   height: 10rem;
   margin: 0.5rem;
 }
+.article .article2 {
+  background-color: hotpink;
+}
 
 /*# sourceMappingURL=index.css.map */

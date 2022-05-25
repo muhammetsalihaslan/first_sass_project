@@ -138,5 +138,6 @@ main{
     }
     .article2{
         @extend .article1;
+        background-color:hotpink;
     }
 }
