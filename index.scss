@@ -141,3 +141,37 @@ main{
         background-color:hotpink;
     }
 }
+
+//********FOOTER****************/
+$textColor: #990000, #55004e, #0fa8a1, #121456, #64c217;
+
+footer{
+    .social{
+        display: flex;
+        height:8rem;
+        @for $i from 1 to 6{
+             .social#{$i}{
+                 width:20%;
+                 height:100%;
+                 background-color:lighten(#44a616, $i*10);
+                 color:nth($textColor, $i);
+                 font-size: $i * 1rem;
+             }
+        }
+    }
+}
+
+//! if else
+
+$dark:5;
+
+.footer {
+    @if $dark == 3{
+        background-color:white;
+        color: black;
+    } @else if $dark == 2{
+        background-color:gray;
+    } @else{
+        background-color:green;
+    }
+}

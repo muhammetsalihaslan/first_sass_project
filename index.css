@@ -122,4 +122,48 @@ main .banner img {
   background-color: hotpink;
 }
 
+footer .social {
+  display: flex;
+  height: 8rem;
+}
+footer .social .social1 {
+  width: 20%;
+  height: 100%;
+  background-color: #56d31c;
+  color: #990000;
+  font-size: 1rem;
+}
+footer .social .social2 {
+  width: 20%;
+  height: 100%;
+  background-color: #73e53d;
+  color: #55004e;
+  font-size: 2rem;
+}
+footer .social .social3 {
+  width: 20%;
+  height: 100%;
+  background-color: #93eb6a;
+  color: #0fa8a1;
+  font-size: 3rem;
+}
+footer .social .social4 {
+  width: 20%;
+  height: 100%;
+  background-color: #b4f197;
+  color: #121456;
+  font-size: 4rem;
+}
+footer .social .social5 {
+  width: 20%;
+  height: 100%;
+  background-color: #d4f7c4;
+  color: #64c217;
+  font-size: 5rem;
+}
+
+.footer {
+  background-color: green;
+}
+
 /*# sourceMappingURL=index.css.map */
