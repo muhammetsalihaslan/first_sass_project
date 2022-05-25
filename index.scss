@@ -1,2 +1,57 @@
+*{
+    margin: 0;
+}
+
 //! Variable Declaration
 
+$bgColor: pink;
+$fontColor:white;
+$fontsize:1.2rem;
+$fontFamily: "Segoe UI",Tahoma,Arial,sans-serif;
+$navBgColor:#30a7c3;
+$myBorder:2px solid rgb(175,29,29);
+$myLinkSize:19px;
+$bannerBgColor:#cc6699;
+
+//! Variables usage
+
+body {
+    font-family: $fontFamily;
+    background-color: $bgColor;
+    color:$fontColor;
+    font-size:$fontsize;
+}
+
+//** HEADER****************************/
+
+header{
+    background-color:$navBgColor;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    
+    
+    img{
+        width: 80px;
+        border: $myBorder;
+        border-radius:10px;
+    }
+    nav {
+        
+        ul {
+            list-style-type: none;
+        }
+        li{
+            display: inline-block;
+            &:hover{
+                text-decoration:underline;
+            }
+        }
+        a {
+          color: black;
+          text-decoration: none;
+          padding: 0.5rem;
+        }
+    }
+}
